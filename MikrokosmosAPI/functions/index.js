@@ -1,7 +1,6 @@
 /*
-*FIREBASE CRUD API
-*Basic commands: Create, Read, Update, Delete
-*Special: Search by date
+*Mikrokosmos API
+*commands: Read by id, Read all, read by date/time
 
 1. Make database
 2. go to project settings in firebase site and add "APP"(web app)
@@ -29,35 +28,7 @@ const db = admin.firestore();
 const cors = require('cors');
 mikrokosmos.use(cors({origin:true}));
 
-
-//Test
-mikrokosmos.get('/hello-world', (req,res)=>{
-    return res.status(200).send('Hello World!');
-})
-
-
-//Create new
-//Post
-mikrokosmos.post('/api/create',(req,res)=>{
-    (async()=>{
-        try{
-            await db.collection('Mikrokosmos-testi').doc('/'+req.body.id + '/').create({
-
-                name: req.body.name,
-                data: req.body.data,
-                publishTime: req.body.publishTime
-
-            })
-            return res.status(200).send();
-        }catch(error){
-            console.log(error);
-            return res.status(500).send(error);
-        }
-    })();
-});
-
 //Read a specific item from database with ID
-//Get
 mikrokosmos.get('/api/read/:id',(req,res)=>{
     (async()=>{
         try{
@@ -74,7 +45,6 @@ mikrokosmos.get('/api/read/:id',(req,res)=>{
 });
 
 //Read all items
-//Get
 mikrokosmos.get('/api/read',(req,res)=>{
     (async()=>{
         try{
@@ -109,7 +79,6 @@ mikrokosmos.get('/api/read',(req,res)=>{
 });
 
 //Get by date or time
-//Get
 mikrokosmos.get('/api/read/datetime/:day',(req,res)=>{
     (async()=>{
         try{
@@ -141,8 +110,7 @@ mikrokosmos.get('/api/read/datetime/:day',(req,res)=>{
                 return response;
             })
 
-            let dayList=[];
-            
+            let dayList=[];          
             //If value time parameter has included string add it to dayList. Using compareList variable to avoid problems when user searches with hh:mm.
             for(var i in compareList) { 
                 if(compareList[i].data.time.includes(req.params.day)){
@@ -150,9 +118,7 @@ mikrokosmos.get('/api/read/datetime/:day',(req,res)=>{
                 }
             }
             //Sort daylist(new>old)
-            dayList = dayList.sort((a, b) => new Date(b.data.time) - new Date(a.data.time));
-            
-            
+            dayList = dayList.sort((a, b) => new Date(b.data.time) - new Date(a.data.time));                        
             return res.status(200).send(dayList);
 
         }catch(error){
@@ -161,43 +127,6 @@ mikrokosmos.get('/api/read/datetime/:day',(req,res)=>{
         }
     })();
 });
-
-
-// update
-mikrokosmos.put('/api/update/:id', (req, res) => {
-    (async () => {
-        try {
-            const document = db.collection('Mikrokosmos-testi').doc(req.params.id);
-            await document.update({
-                //item: req.body.item
-               //write fields that you want to update here!!!
-            });
-            return res.status(200).send();
-        } catch (error) {
-            console.log(error);
-            return res.status(500).send(error);
-        }
-        })();
-    });
-
-
-// delete (coming soon)
-
-/** 
-mikrokosmos.delete('/api/delete/:id', (req, res) => {
-    (async () => {
-        try {
-            const document = db.collection('Kasvihuone-Sensori-Data3').doc(req.params.id);
-            await document.delete();
-            return res.status(200).send();
-        } catch (error) {
-            console.log(error);
-            return res.status(500).send(error);
-        }
-        })();
-    });
-*/
-
 
 exports.mikrokosmos= functions.https.onRequest(mikrokosmos);
 
