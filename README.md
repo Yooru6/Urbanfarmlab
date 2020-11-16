@@ -1,4 +1,4 @@
-# Mikrokosmos-FirebaseCRUDAPI
+# Mikrokosmos-API
 With this API you can get data from hydroponic greenhouse located in urbanfarmlab.
 
 #### JSON data example:
