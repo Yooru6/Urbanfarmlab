@@ -1,6 +1,8 @@
 # Mikrokosmos
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos.jpg" width="50%" height="50%">
 
+The Mikrokosmos is a small greenhouse located on urbanfarmlab on the Metropolia's Myyrmäki campus. It is equipped with measuring equipment built utilizing a Particle-photon microcontroller. The data collected by the measurement device is sent to the google services, from where the cloud functions direct it to the firestore and google sheet.
+
 ## Mikrokosmos-API
 With this API you can get data from hydroponic greenhouse located in urbanfarmlab.
 
