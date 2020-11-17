@@ -1,4 +1,7 @@
-# Mikrokosmos-API
+# Mikrokosmos
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos.jpg" width="50%" height="50%">
+
+## Mikrokosmos-API
 With this API you can get data from hydroponic greenhouse located in urbanfarmlab.
 
 #### JSON data example:
