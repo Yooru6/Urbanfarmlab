@@ -11,3 +11,8 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 | Electric conductivity | DFR0300 |[Adafruit](https://www.dfrobot.com/product-1123.html "DFRobot 0300 - electrical conductivity sensor")|
 | Co2 | CCS811 |[Adafruit](https://www.sparkfun.com/products/14193 "Sparkfun - CCS811 Co2-sensor")|
 | Light | TEMT6000 |[Adafruit](https://www.sparkfun.com/products/8688 "Sparkfun - TEMT6000 light-sensor")|
+
+
+## Connections
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Particle-Mikrokosmos_connections.png" width="50%" height="50%">
+
