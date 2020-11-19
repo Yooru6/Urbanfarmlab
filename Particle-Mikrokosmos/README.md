@@ -13,6 +13,6 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 | Light | TEMT6000 |[Adafruit](https://www.sparkfun.com/products/8688 "Sparkfun - TEMT6000 light-sensor")|
 
 
-## Connections
+## Wiring Diagram
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Particle-Mikrokosmos_connections.png" width="50%" height="50%">
 
