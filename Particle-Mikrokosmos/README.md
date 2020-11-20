@@ -19,10 +19,17 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 ## Getting ready to import code
 
 - Download the Particle app from the app store.
+- Start up application
+- Make a Particle account and log in
 - Connect the power cable to the particle photon
 - Go to the Particle application in your phone, press the "+" button in the lower right corner and select "set up a Photon"
 - Follow the instructions provided by the application
 
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/ParticleApp-alkun%C3%A4ytt%C3%B6.jpg" width="30%" height="30%">
 
+## Uploading code to Particle
+
+- Go to https://console.particle.io/devices
+- Fill out required information and log in.
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Console_particle_io.PNG" width="70%" height="70%">
 
