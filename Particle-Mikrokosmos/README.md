@@ -31,5 +31,5 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 
 - Go to https://console.particle.io/devices
 - Fill out required information and log in.
-<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Console_particle_io.PNG" width="70%" height="70%">
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Console_particle_io_v2.png" width="70%" height="70%">
 
