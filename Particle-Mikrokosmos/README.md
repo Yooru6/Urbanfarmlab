@@ -30,6 +30,8 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 ## Uploading code to Particle
 
 - Go to https://console.particle.io/devices
-- Fill out required information and log in.
+- Fill out required information and log in
+  - You should now see same screen as in picture below
+  - If a previously installed Particle photo is connected to the Internet, it should appear on the page and the color of the ball to its left should be blue
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Console_particle_io_v2.png" width="70%" height="70%">
 
