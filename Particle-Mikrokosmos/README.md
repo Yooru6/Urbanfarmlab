@@ -16,3 +16,13 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 ## Wiring Diagram
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Particle-Mikrokosmos_connections.png" width="50%" height="50%">
 
+## Getting ready to import code
+
+- Download the Particle app from the app store.
+- Connect the power cable to the particle photon
+- Go to the Particle application in your phone, press the "+" button in the lower right corner and select "set up a Photon"
+- Follow the instructions provided by the application
+
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/ParticleApp-alkun%C3%A4ytt%C3%B6.jpg" width="30%" height="30%">
+
+
