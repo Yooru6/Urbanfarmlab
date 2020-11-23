@@ -44,4 +44,8 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 <IMAGE>
 
 ## Google integration
-
+ - Go to https://console.cloud.google.com
+ - Sign in with your google account
+ - If you haven't used the free trial yet, you can activate it if you wish
+ - Select "Firestore" from the navigation bar on the left side of the page
+ 
