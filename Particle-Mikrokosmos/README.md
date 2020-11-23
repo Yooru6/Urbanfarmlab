@@ -36,3 +36,12 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 - Click "Web Ide" button from the left side of the site
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Console_particle_io_v2.png" width="70%" height="70%">
 
+- Click this link https://go.particle.io/shared_apps/5fbb9b63e6f0b000172c51bf
+- Check that the correct particle device is selected in the lower right corner
+  - If the correct device is not selected, press the yellow "P" icon to the left of the device name and select the device on which you want to install the program
+- Press the "Flash" button at the top left to install the program
+
+<IMAGE>
+
+## Google integration
+
