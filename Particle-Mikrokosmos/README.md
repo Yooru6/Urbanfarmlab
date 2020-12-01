@@ -65,7 +65,7 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 ### Pub/Sub
 Next, we create a pub / sub topic for collecting sensor data from the particle service
 - Click on the "pub / sub" heading in the navigation bar on the left side of the page.
-- Click "CREATE TOPIC" and give it a descriptive name.
+- Click "CREATE TOPIC" and give it a descriptive name and "CREATE TOPIC"
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/pubsub-topicname-v2.png" width="70%" height="70%">
 
 
