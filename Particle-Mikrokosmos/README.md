@@ -48,4 +48,8 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
  - Sign in with your google account
  - If you haven't used the free trial yet, you can activate it if you wish
  - Select "Firestore" from the navigation bar on the left side of the page
+ - Click "Create Project" from the right up corner
+   - Fill required information
  
+ <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Firestore-createproject.png" width="70%" height="70%">
+
