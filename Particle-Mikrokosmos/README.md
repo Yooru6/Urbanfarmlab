@@ -14,6 +14,7 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 
 
 ## Wiring Diagram
+For the code and integration used in the instructions below to work, the particle sensor connections must be made according to the wiring diagram below.
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Particle-Mikrokosmos_connections.png" width="50%" height="50%">
 
 ## Getting ready to import code
@@ -45,6 +46,7 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 
 ## Google integration
 ### Firestore/Firebase
+First, we create a database for particle integration. In this project, we use a firebase database because of its features.
  - Go to https://console.cloud.google.com
  - Sign in with your google account
  - If you haven't used the free trial yet, you can activate it if you wish
