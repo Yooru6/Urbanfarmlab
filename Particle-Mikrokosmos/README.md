@@ -58,5 +58,5 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
  
  - Now you have database has been created.
  - Next, we create a collection in the database. 
-   - Press "CREATE COLLECTION" and give it the name you want and press "SAVE"
+   - Press "START COLLECTION" and give it the name you want and press "SAVE"
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/firestore-collection-v2.png" width="70%" height="70%">
