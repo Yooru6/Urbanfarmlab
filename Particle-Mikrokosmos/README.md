@@ -52,4 +52,11 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
    - Fill required information
  
  <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Firestore-createproject.png" width="70%" height="70%">
-
+ 
+ - After the project is successfully created, you will be presented with a view as shown below. Click "Select native mode".
+ <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Firestore-nativemode.png" width="70%" height="70%">
+ 
+ - Now you have database has been created.
+ - Next, we create a collection in the database. 
+   - Press "CREATE COLLECTION" and give it the name you want and press "SAVE"
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/firestore-collection-v2.png" width="70%" height="70%">
