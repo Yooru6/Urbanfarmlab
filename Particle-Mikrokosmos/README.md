@@ -44,6 +44,7 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 <IMAGE>
 
 ## Google integration
+### Firestore/Firebase
  - Go to https://console.cloud.google.com
  - Sign in with your google account
  - If you haven't used the free trial yet, you can activate it if you wish
@@ -60,3 +61,11 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
  - Next, we create a collection in the database. 
    - Press "START COLLECTION" and give it the name you want and press "SAVE"
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/firestore-collection-v2.png" width="70%" height="70%">
+
+### Pub/Sub
+Next, we create a pub / sub topic for collecting sensor data from the particle service
+- Click on the "pub / sub" heading in the navigation bar on the left side of the page.
+- Click "CREATE TOPIC" and give it a descriptive name.
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/pubsub-topicname-v2.png" width="70%" height="70%">
+
+
