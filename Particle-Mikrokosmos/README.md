@@ -15,6 +15,7 @@ The measuring equipment was built with Particle-Photon and uses the sensors list
 
 ## Wiring Diagram
 For the code and integration used in the instructions below to work, the particle sensor connections must be made according to the wiring diagram below.
+
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Particle-Mikrokosmos_connections.png" width="50%" height="50%">
 
 ## Getting ready to import code
