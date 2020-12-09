@@ -2,6 +2,7 @@
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos.jpg" width="50%" height="50%">
 
 The Mikrokosmos is a greenhouse equipped with measuring equipment and it is located on the Metropolia's Myyrmäki campus. The climate of Mikrokosmos is optimized to be optimal for plant growth. Mikrokosmos's climate related data is collected by sensors and stored in a firebase database and on a google sheet by utilizing Particle Cloud and Google Cloud Platform.
+
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos-diagram1.PNG" width="50%" height="50%">
 
 In this repository you will find the work steps and source codes related to building a Mikrokosmos.
