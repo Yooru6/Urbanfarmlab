@@ -5,7 +5,7 @@ The Mikrokosmos is a greenhouse equipped with measuring equipment and it is loca
 
 The Mikrokosmos has also been provided with an open-API with which anyone can access the data. Api calls and source code can also be found in this repository.
 
-<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos-diagram1.PNG" width="50%" height="50%">
+<img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Mikrokosmos-diagram1.PNG" width="100%" height="100%">
 
 In this repository you will find the work steps and source codes related to building a Mikrokosmos.
 
