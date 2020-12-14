@@ -60,13 +60,13 @@ First, we create a database for particle integration. In this project, we use a 
  - After the project is successfully created, you will be presented with a view as shown below. Click "Select native mode".
  <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/Firestore-nativemode.png" width="70%" height="70%">
  
- - Now you have database has been created.
+ - Now database has been created.
  - Next, we create a collection in the database. 
    - Press "START COLLECTION" and give it the name you want and press "SAVE"
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/firestore-collection-v2.png" width="70%" height="70%">
 
 ### Pub/Sub
-Next, we create a pub / sub topic for collecting sensor data from the particle service
+Next, we create a pub / sub topic for listening/collecting sensor data from the particle service. 
 - Click on the "pub / sub" heading in the navigation bar on the left side of the page.
 - Click "CREATE TOPIC" and give it a descriptive name and "CREATE TOPIC"
 <img src="https://github.com/Yooru6/Urbanfarmlab/blob/main/Pictures/pubsub-topicname-v2.png" width="70%" height="70%">
