@@ -31,13 +31,14 @@ With this API you can get data from hydroponic greenhouse located in urbanfarmla
 <ul>
   <li>https://us-central1-amiable-hydra-279814.cloudfunctions.net/mikrokosmos/api/read/datetime/yyyy-mm-dd</li>
   <li>Uses time variable from data</li>
+  <li>replace the yyyy-mm-dd part with the date for which you want the data</li>
 </ul>
  
  <li>Get by TIME</li>
  <ul>
    <li>https://us-central1-amiable-hydra-279814.cloudfunctions.net/mikrokosmos/api/read/datetime/hh:</li>
    <li>Uses time variable from data</li>
+   <li>replace the hh: part with the time for which you want the data</li>
  </ul>
-
 
 </ul>
