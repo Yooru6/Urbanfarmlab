@@ -18,7 +18,7 @@ With this API you can get data from hydroponic greenhouse located in urbanfarmla
  
 <li>Get by ID</li>
 <ul>
-   <li>https://us-central1-amiable-hydra-279814.cloudfunctions.net/mikrokosmos/api/read/IDHERE</li>
+   <li>https://us-central1-amiable-hydra-279814.cloudfunctions.net/mikrokosmos/api/read/WRITEIDHERE</li>
 </ul>
  
 <li>Get ALL</li>
@@ -38,5 +38,6 @@ With this API you can get data from hydroponic greenhouse located in urbanfarmla
    <li>https://us-central1-amiable-hydra-279814.cloudfunctions.net/mikrokosmos/api/read/datetime/hh:</li>
    <li>Uses time variable from data</li>
  </ul>
+
 
 </ul>
